@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" as="image" href="img/isotipo.svg" />
+    <link rel="stylesheet" href="dist/style.css" />
+  </head>
+  <body>
+    <main class="landing">
+      <section class="landing__content">
+        <img class="landing__image" src="/img/isotipo.svg" alt="Isotipo" />
+        <h1 class="landing__title">David Ponce Vargas</h1>
+        <h2 class="landing__subtitle">Web Developer</h2>
+
+        <nav class="landing__nav">
+          <a class="landing__nav-item" href="#about-me">About me</a>
+          <a class="landing__nav-item" href="#skills">Skills</a>
+          <a class="landing__nav-item" href="#projects">Projects</a>
+        </nav>
+
+        <div class="landing__social">
+          <a
+            href="https://www.linkedin.com/in/david-ponce-230369128/"
+            class="landing__social-item"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M2.39734 4.46525H2.36918C2.06256 4.48374 1.75542 4.43882 1.46694 4.33329C1.17846 4.22776 0.914829 4.06388 0.69252 3.8519C0.470211 3.63992 0.293993 3.38438 0.174871 3.10124C0.0557492 2.8181 -0.00371909 2.51344 0.000180051 2.20628C0.00407919 1.89913 0.0712618 1.59608 0.197533 1.31606C0.323804 1.03603 0.506452 0.785047 0.73407 0.578775C0.961689 0.372504 1.22939 0.215375 1.52046 0.117201C1.81152 0.0190276 2.11971 -0.018083 2.42576 0.00818709C2.73333 -0.014088 3.04218 0.0275121 3.33289 0.130371C3.62361 0.233231 3.8899 0.395125 4.11502 0.605874C4.34014 0.816623 4.51922 1.07167 4.64101 1.35498C4.76279 1.63828 4.82465 1.94372 4.82268 2.25209C4.82072 2.56046 4.75497 2.86509 4.62958 3.14682C4.50419 3.42855 4.32187 3.68129 4.09408 3.88915C3.86629 4.09701 3.59796 4.2555 3.30596 4.35464C3.01396 4.45378 2.7046 4.49144 2.39734 4.46525Z"
+                fill="currentColor"
+              />
+              <path
+                d="M4.41183 7.46525H0.411835V19.4652H4.41183V7.46525Z"
+                fill="currentColor"
+              />
+              <path
+                d="M14.9114 7.46525C14.2373 7.46709 13.5724 7.62126 12.9663 7.91623C12.3603 8.21121 11.8287 8.63936 11.4114 9.16868V7.46525H7.41138V19.4652H11.4114V13.9652C11.4114 13.4348 11.6221 12.9261 11.9972 12.551C12.3722 12.176 12.8809 11.9652 13.4114 11.9652C13.9418 11.9652 14.4505 12.176 14.8256 12.551C15.2007 12.9261 15.4114 13.4348 15.4114 13.9652V19.4652H19.4114V11.9652C19.4114 11.3743 19.295 10.7891 19.0688 10.2432C18.8427 9.69721 18.5112 9.20113 18.0934 8.78327C17.6755 8.3654 17.1794 8.03394 16.6335 7.80779C16.0875 7.58164 15.5023 7.46525 14.9114 7.46525Z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.github.com/davidp46"
+            class="landing__social-item"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg width="19" height="22" viewBox="0 0 19 22" fill="none">
+              <path
+                d="M17.3411 3.90268C17.2599 3.7949 17.1731 3.69142 17.0811 3.59268C17.1737 3.34612 17.244 3.09177 17.2911 2.83268C17.4305 1.88487 17.3095 0.917022 16.9411 0.0326789C16.9411 0.0326789 15.8211 -0.317321 13.2511 1.41268C12.1601 1.11141 11.0331 0.960025 9.90114 0.962679C8.76599 0.960692 7.63577 1.11206 6.54114 1.41268C3.97114 -0.337321 2.85114 0.0326789 2.85114 0.0326789C2.48724 0.907669 2.36632 1.86467 2.50114 2.80268C2.5486 3.07254 2.62228 3.33713 2.72114 3.59268C2.63114 3.69268 2.54114 3.80268 2.46114 3.90268C1.71491 4.83869 1.31879 6.00582 1.34114 7.20268C1.33877 7.48653 1.35212 7.7703 1.38114 8.05268C1.70108 12.4827 4.65114 13.5127 7.46114 13.8327C7.0634 14.2025 6.79372 14.6893 6.69114 15.2227C6.5982 15.5784 6.55446 15.9451 6.56114 16.3127V17.6222C5.44292 17.7216 4.29466 17.5589 3.93895 16.5609C3.55655 15.6059 2.92261 14.7724 2.10448 14.1488C2.04503 14.1163 1.98848 14.0787 1.93548 14.0365C1.86364 13.8475 1.73629 13.6847 1.57018 13.5695C1.40407 13.4543 1.20698 13.3921 1.00482 13.391H1.00001C0.735613 13.3909 0.481942 13.4956 0.294526 13.6821C0.107109 13.8686 0.00121212 14.1217 1.39822e-05 14.3861C-0.00388602 15.1986 0.809104 15.723 1.14259 15.9017C1.53152 16.2936 1.84443 16.7542 2.06544 17.2601C2.4297 18.2836 3.49464 19.8382 6.53126 19.6361C6.53226 19.6713 6.53326 19.7045 6.53371 19.7348L6.5381 20.0023C6.53807 20.1337 6.56391 20.2637 6.61415 20.3851C6.6644 20.5064 6.73806 20.6167 6.83092 20.7095C6.92379 20.8024 7.03404 20.876 7.15538 20.9263C7.27672 20.9765 7.40677 21.0024 7.5381 21.0023L7.54121 21.0017V21.0024H12.2523C12.3837 21.0024 12.5137 20.9766 12.6351 20.9263C12.7564 20.8761 12.8667 20.8024 12.9595 20.7096C13.0524 20.6167 13.126 20.5064 13.1763 20.3851C13.2265 20.2638 13.2524 20.1337 13.2523 20.0024C13.2523 20.0024 13.2597 16.8427 13.2597 16.3127C13.2663 15.9452 13.2226 15.5784 13.1297 15.2227L13.1278 15.2166L13.1312 15.2227C13.1226 15.1877 13.1095 15.1592 13.1001 15.1253C12.9884 14.6299 12.7304 14.1795 12.3596 13.8327L12.3712 13.8535C12.3644 13.8474 12.358 13.8386 12.3511 13.8327C15.1611 13.5127 18.0911 12.4627 18.4111 8.05267C18.4401 7.77029 18.4535 7.48652 18.4511 7.20267C18.4688 6.00819 18.0771 4.84365 17.3411 3.90268Z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
+        </div>
+      </section>
+      <a href="#about-me" class="landing__arrow-icon">
+        <svg
+          style="width: 24px"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M16 17l-4 4m0 0l-4-4m4 4V3"
+          />
+        </svg>
+      </a>
+    </main>
+
+    <section class="about-me" id="about-me">
+      <div class="about-me__content">
+        <h2 class="about-me__title">About me</h2>
+        <figure class="about-me__avatar">
+          <img
+            class="about-me__image"
+            loading="lazy"
+            src="/img/avatar-min.png"
+            alt="Avatar"
+          />
+        </figure>
+        <article class="about-me__info">
+          <h3>Profile</h3>
+          <p>
+            I am enthusiastic about web application development and interface
+            design. Passionate about self-taught learning and someone
+            self-critical with me work, constantly seeking to improve. I
+            consider someone direct and responsible.
+          </p>
+          <h3>Education</h3>
+          <p>
+            Lic. Ciencias de la Computación Benemérita Universidad Autónoma de
+            Puebla 2015 - Actual
+          </p>
+          <p>
+            Técnico en Programación Cetis No. 3 Juana Belén Gutiérrez de Mendoza
+            2012 - 2015
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="skills__content">
+        <h2 class="skills__title">Skills</h2>
+        <ul class="skills__technologies">
+          <li class="skills__item">
+            <img
+              loading="lazy"
+              class="skills__image skills__item--html"
+              src="img/html5.svg"
+              alt="HTML"
+            />
+            <span class="skills__name">HTML</span>
+          </li>
+          <li class="skills__item">
+            <img
+              loading="lazy"
+              class="skills__image skills__item--css"
+              src="img/css3.svg"
+              alt="CSS"
+            />
+            <span class="skills__name">CSS</span>
+          </li>
+          <li class="skills__item">
+            <img
+              loading="lazy"
+              class="skills__image skills__item--javascript"
+              src="img/javascript.svg"
+              alt="Javascript"
+            />
+            <span class="skills__name">JavaScript</span>
+          </li>
+          <li class="skills__item">
+            <img
+              loading="lazy"
+              class="skills__image skills__item--typescript"
+              src="img/typescript.svg"
+              alt="Typescript"
+            />
+            <span class="skills__name">TypeScript</span>
+          </li>
+          <li class="skills__item">
+            <img
+              loading="lazy"
+              class="skills__image skills__item--node"
+              src="img/nodedotjs.svg"
+              alt="Node"
+            />
+            <span class="skills__name">Node</span>
+          </li>
+          <li class="skills__item">
+            <img
+              loading="lazy"
+              class="skills__image skills__item--react"
+              src="img/react.svg"
+              alt="React"
+            />
+            <span class="skills__name">React</span>
+          </li>
+          <li class="skills__item">
+            <img
+              loading="lazy"
+              class="skills__image skills__item--next"
+              src="img/nextdotjs.svg"
+              alt="Next"
+            />
+            <span class="skills__name">Next</span>
+          </li>
+          <li class="skills__item">
+            <img
+              loading="lazy"
+              class="skills__image skills__item--scss"
+              src="img/sass.svg"
+              alt="SCSS"
+            />
+            <span class="skills__name">SCSS</span>
+          </li>
+          <li class="skills__item">
+            <img
+              loading="lazy"
+              class="skills__image skills__item--bash"
+              src="img/gnubash.svg"
+              alt="Bash"
+            />
+            <span class="skills__name">Bash</span>
+          </li>
+          <li class="skills__item">
+            <img
+              loading="lazy"
+              class="skills__image skills__item--php"
+              src="img/php.svg"
+              alt="PHP"
+            />
+            <span class="skills__name">PHP</span>
+          </li>
+          <li class="skills__item">
+            <img
+              loading="lazy"
+              class="skills__image skills__item--mongo"
+              src="img/mongodb.svg"
+              alt="MongoDB"
+            />
+            <span class="skills__name">MongoDB</span>
+          </li>
+          <li class="skills__item">
+            <img
+              loading="lazy"
+              class="skills__image skills__item--mysql"
+              src="img/mysql.svg"
+              alt="MySQL"
+            />
+            <span class="skills__name">MySQL</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="projects__content">
+        <h2 class="projects__title">Projects</h2>
+        <ul class="projects__collection">
+          <li class="project">
+            <figure class="project__image">
+              <img
+                loading="lazy"
+                src="img/projects/todolist-project.png"
+                alt="Lista de pendientes"
+              />
+            </figure>
+            <article class="project__info">
+              <h3>To-do list app</h3>
+              <p>
+                This application was inspired by the
+                <a
+                  rel="noreferrer noopener"
+                  href="https://www.dona.ai/"
+                  target="_blank"
+                  >Dona</a
+                >
+                group, which is in the development phase of its to-do list
+                application. The application has an authentication system, to
+                keep each to-do list per account secure and private.
+              </p>
+              <div class="project__actions">
+                <a
+                  rel="noreferrer noopener"
+                  href="https://github.com/davidp46/todo-app-client"
+                  target="_blank"
+                  class="button button__ghost"
+                  >View source</a
+                >
+                <a
+                  rel="noreferrer noopener"
+                  href="https://todo.davidponc.me"
+                  target="_blank"
+                  class="button button__primary"
+                  >Visit site</a
+                >
+              </div>
+            </article>
+          </li>
+          <li class="project">
+            <figure class="project__image">
+              <img
+                loading="lazy"
+                src="img/projects/covid-project-dark.png"
+                alt="Lista de pendientes"
+              />
+            </figure>
+            <article class="project__info">
+              <h3>COVID-19 countries list</h3>
+              <p>
+                This application was built with the help of an
+                <a
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  href="https://covid19api.com/"
+                  >API</a
+                >, which offers global data by country, on Coronavirus cases.
+                The application has a dark mode and a search engine where you
+                can search for countries by name. Where you can search the
+                countries by name.
+              </p>
+              <div class="project__actions">
+                <a
+                  rel="noreferrer noopener"
+                  href="https://github.com/davidp46/todo-app-client"
+                  target="_blank"
+                  class="button button__ghost"
+                  >View source</a
+                >
+                <a
+                  rel="noreferrer noopener"
+                  href="https://todo.davidponc.me"
+                  target="_blank"
+                  class="button button__primary"
+                  >Visit site</a
+                >
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <header class="navbar navbar--hidden" id="navbar">
+      <nav class="navbar__links">
+        <a class="navbar-item" href="#about-me">About me</a>
+        <a class="navbar-item" href="#skills">Skills</a>
+        <a class="navbar-item" href="#projects">Projects</a>
+      </nav>
+    </header>
+
+    <script src="dist/script.js"></script>
+  </body>
+</html>
