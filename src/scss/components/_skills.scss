@@ -17,10 +17,10 @@
     margin: auto;
     width: 200px;
     height: 200px;
-    background: rgba(#ab97f9, 50%);
+    background: rgba(#ab97f9, var(--percentage-gradients));
     border-radius: 50%;
     filter: blur(75px);
-    transform: translate(120%, -40%) scale(1.4);
+    transform: translate(120%, -32%) scale(1.6);
   }
 
   &::before {
@@ -33,10 +33,10 @@
     margin: auto;
     width: 200px;
     height: 200px;
-    background: rgba(#6aa0f0, 50%);
+    background: rgba(#6aa0f0, var(--percentage-gradients));
     border-radius: 50%;
     filter: blur(75px);
-    transform: translate(-120%, 40%) scale(1.4);
+    transform: translate(-120%, 32%) scale(1.6);
   }
 
   &__content {

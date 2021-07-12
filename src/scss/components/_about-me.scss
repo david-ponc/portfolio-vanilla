@@ -37,7 +37,7 @@
       margin: auto;
       width: 100%;
       height: 100%;
-      background: #ab97f9;
+      background: rgba(#ab97f9, var(--percentage-gradients));
       filter: blur(128px);
       z-index: -1;
     }

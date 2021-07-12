@@ -15,7 +15,7 @@
     margin: auto;
     width: 200px;
     height: 200px;
-    background: rgba(#ab97f9, 80%);
+    background: rgba(#ab97f9, var(--percentage-gradients));
     border-radius: 50%;
     filter: blur(75px);
     transform: translate(40%, -40%);
@@ -31,7 +31,7 @@
     margin: auto;
     width: 200px;
     height: 200px;
-    background: rgba(#6aa0f0, 80%);
+    background: rgba(#6aa0f0, var(--percentage-gradients));
     border-radius: 50%;
     filter: blur(75px);
     transform: translate(-40%, 40%);
@@ -71,7 +71,7 @@
 
     &-item {
       text-decoration: none;
-      color: black;
+      color: var(--foreground-color);
 
       &:not(:last-child) {
         margin-right: 0.75rem;
@@ -89,16 +89,16 @@
     &-item {
       width: 32px;
       height: 32px;
-      color: black;
+      color: var(--foreground-color);
       border-radius: 0.375rem;
-      background: white;
+      background: var(--background-color);
       display: grid;
       place-items: center;
     }
   }
 
   &__arrow-icon {
-    color: black;
+    color: var(--foreground-color);
     position: absolute;
     bottom: 1rem;
     animation: vertical-arrow 1.8s linear infinite;

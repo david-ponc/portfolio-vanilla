@@ -11,6 +11,14 @@
   --php-color: #777bb4;
   --mongo-color: #47a248;
   --mysql-color: #4479a1;
+
+  --background-color: #f7f7f7;
+  --foreground-color: #1b1c1e;
+
+  --navbar-background-color: rgba(247, 247, 247, 0.3);
+  --primary-color: #1c73f3;
+
+  --percentage-gradients: 80%;
 }
 
 $html-color: #e34f26;
@@ -25,3 +33,13 @@ $bash-color: #4eaa25;
 $php-color: #777bb4;
 $mongo-color: #47a248;
 $mysql-color: #4479a1;
+
+// detect preference color scheme (light or dark) media query
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #1b1c1e;
+    --foreground-color: #f7f7f7;
+    --navbar-background-color: rgba(27, 28, 30, 0.3);
+    --percentage-gradients: 24%;
+  }
+}

@@ -2,12 +2,14 @@ html {
   font-size: 100%;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  background: var(--background-color);
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+  color: var(--foreground-color);
 }
 
 body {
@@ -18,5 +20,5 @@ body {
 }
 
 a {
-  color: #1c73f3;
+  color: var(--primary-color);
 }

@@ -49,7 +49,7 @@
       margin: auto;
       width: 100%;
       height: 100%;
-      background: rgba(#6aa0f0, 80%);
+      background: rgba(#6aa0f0, var(--percentage-gradients));
       border-radius: 50%;
       filter: blur(75px);
       transform: scale(1.2);

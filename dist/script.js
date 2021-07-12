@@ -1,2 +1,2 @@
-const globalNavbar=document.querySelector("#navbar"),landingNavbar=document.querySelector(".landing__nav");function callback(a,e){const{isIntersecting:n}=a[0];n?globalNavbar.classList.add("navbar--hidden"):globalNavbar.classList.remove("navbar--hidden")}const observer=new IntersectionObserver(callback,{threshold:1});observer.observe(landingNavbar);
+const globalNavbar=document.querySelector("#navbar"),landingNavbar=document.querySelector(".landing__nav");function callback(a){const[e]=a;e.isIntersecting?globalNavbar.classList.add("navbar--hidden"):globalNavbar.classList.remove("navbar--hidden")}const observer=new IntersectionObserver(callback,{threshold:1});observer.observe(landingNavbar);
 //# sourceMappingURL=script.js.map
