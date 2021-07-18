@@ -1,7 +1,12 @@
 const globalNavbar = document.querySelector("#navbar");
 const landingNavbar = document.querySelector(".landing__nav");
 
-function callback(entries) {
+const landingSection = document.querySelector(".landing");
+const aboutMeSection = document.querySelector("#about-me");
+const skillsSection = document.querySelector("#skills");
+const projectsSection = document.querySelector("#projects");
+
+function onChangeNavbar(entries) {
   const [entry] = entries;
 
   entry.isIntersecting
@@ -9,6 +14,19 @@ function callback(entries) {
     : globalNavbar.classList.remove("navbar--hidden");
 }
 
-const observer = new IntersectionObserver(callback, { threshold: 1.0 });
+function onChangeSection(entries) {
+  entries.map((entry) => {
+    const newURL = entry.target.id ? `#${entry.target.id}` : '/'
+    if (entry.isIntersecting) window.history.pushState(null, 'title', newURL)
+  })
+}
 
-observer.observe(landingNavbar);
+const observerToNavbar = new IntersectionObserver(onChangeNavbar, { threshold: 1.0 });
+const observerToSections = new IntersectionObserver(onChangeSection, {threshold: 0.5});
+
+observerToNavbar.observe(landingNavbar);
+observerToSections.observe(landingSection);
+observerToSections.observe(aboutMeSection);
+observerToSections.observe(skillsSection);
+observerToSections.observe(projectsSection);
+
