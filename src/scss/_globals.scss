@@ -10,6 +10,7 @@ html {
 *::after {
   box-sizing: inherit;
   color: var(--foreground-color);
+  font-family: system-ui;
 }
 
 body {
