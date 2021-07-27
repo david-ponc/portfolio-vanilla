@@ -10,13 +10,13 @@ html {
 *::after {
   box-sizing: inherit;
   color: var(--foreground-color);
-  font-family: system-ui;
+  font-family: Arial, system-ui;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: system-ui;
+  // font-family: system-ui;
   line-height: 1.3;
 }
 
