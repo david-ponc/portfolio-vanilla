@@ -71,73 +71,73 @@
     font-weight: 500;
 
     &--html {
-      background-color: rgba($html-color, 0.04);
+      background-color: rgba($html-color, var(--percentage-alpha-bg-skills));
       border: 1px solid rgba($html-color, 0.32);
       // color: $html-color;
     }
 
     &--css {
-      background-color: rgba($css-color, 0.04);
+      background-color: rgba($css-color, var(--percentage-alpha-bg-skills));
       border: 1px solid rgba($css-color, 0.32);
       // color: $css-color;
     }
 
     &--javascript {
-      background-color: rgba($js-color, 0.04);
+      background-color: rgba($js-color, var(--percentage-alpha-bg-skills));
       border: 1px solid rgba($js-color, 0.32);
       // color: $js-color;
     }
 
     &--typescript {
-      background-color: rgba($ts-color, 0.04);
+      background-color: rgba($ts-color, var(--percentage-alpha-bg-skills));
       border: 1px solid rgba($ts-color, 0.32);
       // color: $ts-color;
     }
 
     &--node {
-      background-color: rgba($node-color, 0.04);
+      background-color: rgba($node-color, var(--percentage-alpha-bg-skills));
       border: 1px solid rgba($node-color, 0.32);
       // color: $node-color;
     }
 
     &--react {
-      background-color: rgba($react-color, 0.04);
+      background-color: rgba($react-color, var(--percentage-alpha-bg-skills));
       border: 1px solid rgba($react-color, 0.32);
       // color: $react-color;
     }
 
     &--next {
-      background-color: rgba($next-color, 0.04);
+      background-color: rgba($next-color, var(--percentage-alpha-bg-skills));
       border: 1px solid rgba($next-color, 0.32);
       // color: $next-color;
     }
 
     &--scss {
-      background-color: rgba($scss-color, 0.04);
+      background-color: rgba($scss-color, var(--percentage-alpha-bg-skills));
       border: 1px solid rgba($scss-color, 0.32);
       // color: $scss-color;
     }
 
     &--bash {
-      background-color: rgba($bash-color, 0.04);
+      background-color: rgba($bash-color, var(--percentage-alpha-bg-skills));
       border: 1px solid rgba($bash-color, 0.32);
       // color: $bash-color;
     }
 
     &--php {
-      background-color: rgba($php-color, 0.04);
+      background-color: rgba($php-color, var(--percentage-alpha-bg-skills));
       border: 1px solid rgba($php-color, 0.32);
       // color: $php-color;
     }
 
     &--mongo {
-      background-color: rgba($mongo-color, 0.04);
+      background-color: rgba($mongo-color, var(--percentage-alpha-bg-skills));
       border: 1px solid rgba($mongo-color, 0.32);
       // color: $mongo-color;
     }
 
     &--mysql {
-      background-color: rgba($mysql-color, 0.04);
+      background-color: rgba($mysql-color, var(--percentage-alpha-bg-skills));
       border: 1px solid rgba($mysql-color, 0.32);
       // color: $mysql-color;
     }

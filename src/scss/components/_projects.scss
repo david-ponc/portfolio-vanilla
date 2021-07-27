@@ -53,6 +53,7 @@
       border-radius: 50%;
       filter: blur(75px);
       transform: scale(1.2);
+      z-index: -1;
     }
 
     img {
