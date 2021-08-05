@@ -1,0 +1,5 @@
+user-agent: *
+allow: /
+allow: /#about-me
+allow: /#skills
+allow: /#projects
