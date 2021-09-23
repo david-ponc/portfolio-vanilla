@@ -5,7 +5,8 @@
   --ts-color: #3178c6;
   --node-color: #339933;
   --react-color: #61dafb;
-  --next-color: #ffffff;
+  --next-color: #000000;
+  --next-rgb-color: 0,0,0;
   --scss-color: #cc6699;
   --bash-color: #4eaa25;
   --php-color: #777bb4;
@@ -19,7 +20,7 @@
   --primary-color: #1c73f3;
 
   --percentage-gradients: 80%;
-  --percentage-alpha-bg-skills: 6%;
+  --percentage-alpha-bg-skills: 8%;
 }
 
 $html-color: #e34f26;
@@ -28,7 +29,7 @@ $js-color: #f7df1e;
 $ts-color: #3178c6;
 $node-color: #339933;
 $react-color: #61dafb;
-$next-color: #000000;
+$next-color:#000000;
 $scss-color: #cc6699;
 $bash-color: #4eaa25;
 $php-color: #777bb4;
@@ -42,5 +43,8 @@ $mysql-color: #4479a1;
     --foreground-color: #f7f7f7;
     --navbar-background-color: rgba(27, 28, 30, 0.3);
     --percentage-gradients: 24%;
+    --next-color: #ffffff;
+    --next-rgb-color: 255,255,255;
   }
+  $next-color:#ffffff;
 }
