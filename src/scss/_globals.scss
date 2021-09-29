@@ -13,6 +13,11 @@ html {
   font-family: Poppins, system-ui;
 }
 
+*::selection {
+  background: var(--selection-color);
+  color: var(--foreground-color);
+}
+
 body {
   margin: 0;
   padding: 0;
